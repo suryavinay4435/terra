@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2_instance" {
-    ami = "ami-057752b3f1d6c4d6c"
+    ami = "ami-0d668681c4b8de28c"
     instance_type = "t2.micro"
     key_name = "vinaws2"
 } 
