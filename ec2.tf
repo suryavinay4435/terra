@@ -1,11 +1,11 @@
 provider "aws" {
-    access_key = "AKIAXQ3YWTRJG3QQI7ND"
-    secret_key = "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"
-    region = "us-east-1"
+    access_key = "AKIA55Y4G2OCP6X26M7H"
+    secret_key = "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"
+    region = "ap-south-1"
 }
 
 resource "aws_instance" "ec2_instance" {
-    ami = "ami-057752b3f1d6c4d6c"
+    ami = "ami-06b72b3b2a773be2b"
     instance_type = "t2.micro"
-    key_name = "vinaws2"
+    key_name = "PracticeKey"
 } 
